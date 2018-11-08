@@ -1,8 +1,8 @@
 # Answers
 
-Nom: 
-Prénom: 
-NB: 
+Nom: Magadis
+Prénom: Aïda 
+NB: 7
 
 ## 1.3
 command: 

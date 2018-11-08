@@ -6,17 +6,19 @@ NB: 7
 
 ## 1.3
 command: 
+docker build -t my-python-app .
+docker run -it --rm --name my-running-app my-python-app
 
 ## 1.4
-answer:
-command: 
+answer: L'adresse ne répond rien car il y a une erreur concernant la variable d'environnement.
+command : docker run -it --rm --name my-running-app -p 8080:8080 my-python-app 
 
 ## 1.5
-command: 
+command: docker run -it -e ENVIRONMENT='dev' --rm --name my-running-app -p 8080:8080 my-python-app 
 
 ## 1.6
-answer:
-command: 
+answer: 
+command: docker run -it -e ENVIRONMENT='dev' --rm --name my-running-app -p 8080:8080 my-python-app
 
 ## 1.7
 answer:
